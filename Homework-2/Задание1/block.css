@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+}
+.header div {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    background: #e69705;
+    margin: auto;
+}
+.content1 {
+    width: 100%;
+    height: 35%;
+    background: #f7f721;
+    margin-bottom: 1%;    
+}
+.content2 {
+    width: 100%;
+    height: 25%;
+    margin-bottom: 1%;      
+}
+.content2 div {
+    width: 33%;
+    height: 100%;
+    background: #504ad4;
+    display: inline-block;
+}
+.footer {
+    width: 100%;
+    height: 12%;
+}
+.footer div {
+    width: 24%;
+    height: 100%;   
+    background: #dbdbdb;
+    display: inline-block;
+}
