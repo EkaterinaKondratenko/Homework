@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+    height: 300;
+    width: 300;
+}
+
+.in-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#blue {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+#yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+#red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}

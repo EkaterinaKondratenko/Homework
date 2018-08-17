@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    height: 204px;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+.in-container {
+    height:  100px;
+    flex-basis: 96px;
+    display: flex;
+    background:yellow;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+#one{
+    background:green;
+   
+}
+#eight {
+    flex-basis: 196px;
+}
+#nine {
+    background-color: green;
+    flex-basis: 896px;
+}

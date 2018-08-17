@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    height: 310px;
+    width: 330px;
+    flex-wrap: wrap;
+}
+
+.in-container {
+    height:  100px;
+    flex-basis: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 5px;
+} 
+
+#two {
+    height: 200px;
+}

@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.in-container {
+    height:  100px;
+    flex-basis: 100px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+#one,#five {
+    align-self: flex-end;
+}
+#two,#four {
+    align-self: center;
+}
+#three {
+    align-self: flex-start;
+}
